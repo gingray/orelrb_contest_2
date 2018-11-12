@@ -3,7 +3,7 @@ require 'pry'
 require 'oj'
 require 'digest'
 
-Agoo::Server.init(6464, 'root', {})
+Agoo::Server.init(6464, 'root', {bind: 'tcp://0.0.0.0'})
 
 class MyHandler
   def call(req)
