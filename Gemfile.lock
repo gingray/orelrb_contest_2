@@ -1,0 +1,21 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    agoo (2.5.4)
+    coderay (1.1.2)
+    method_source (0.9.0)
+    oj (3.7.1)
+    pry (0.11.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  agoo
+  oj (= 3.7.1)
+  pry
+
+BUNDLED WITH
+   1.16.0
