@@ -1,7 +1,7 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    agoo (2.5.4)
+    agoo (2.5.5)
     coderay (1.1.2)
     method_source (0.9.0)
     oj (3.7.1)
@@ -13,7 +13,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  agoo
+  agoo (= 2.5.5)
   oj (= 3.7.1)
   pry
 
